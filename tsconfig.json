@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "target": "ESNext",
+      "outDir": "./dist",
+      "baseUrl": "./src",
+      "module": "CommonJS"
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+
+    "ts-node": {
+      "swc": true
+    }
+  }
